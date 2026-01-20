@@ -101,7 +101,7 @@ body {
   flex-direction: column;
   justify-content: space-between;
   .consistent-schedual {
-    width: 180px;
+    width: 60%;
     position: relative;
     top: 5px;
 
@@ -123,7 +123,7 @@ body {
     margin-bottom: 8px;
   }
   .grow-followers {
-    width: 210px;
+    width: 120%;
     margin: auto;
     margin-bottom: 30px;
 
@@ -136,12 +136,12 @@ body {
 .item4 {
   display: flex;
   flex-direction: column;
-  align-items: flex-end;
   background-color: $item4-bg;
 
   .schedual-posts {
-    margin-bottom: 2rem;
-    width: 100%;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 1.5rem;
 
     img {
       max-width: 100%;
@@ -152,10 +152,11 @@ body {
   background-color: $item6-bg;
 
   .audience-growth {
-    width: 180px;
+    width: 80%;
 
     img {
       max-width: 100%;
+      width: 100%;
     }
   }
 
@@ -182,7 +183,7 @@ body {
   justify-content: space-between;
 
   .AI-content {
-    width: 200px;
+    width: 50%;
 
     img {
       max-width: 100%;
@@ -228,6 +229,8 @@ body {
           .schedual-posts {
             overflow: hidden;
             position: relative;
+            align-self: flex-end;
+            margin-right: 0;
             right: 0;
             flex: 1 280px;
             width: 200px;
@@ -259,10 +262,9 @@ body {
           grid-area: b4;
           padding-bottom: 0;
 
-          // .consistent-schedual {
-          //   position: relative;
-          //   top: 1.3em;
-          // }
+          .consistent-schedual {
+            width: 100%;
+          }
         }
         .item6 {
           grid-area: b5;
