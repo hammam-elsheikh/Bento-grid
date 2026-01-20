@@ -26,8 +26,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- [more solutions URL here](https://www.frontendmentor.io/profile/hammam-elsheikh)
+- [live site URL here](https://hammam-elsheikh.github.io/Bento-grid/)
 
 ### Built with
 
